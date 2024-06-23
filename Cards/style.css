@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap");
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  background-color: rgb(238, 236, 236);
+  min-height: 100vh;
+}
+.container {
+  width: 342px;
+  height: 504px;
+  border-radius: 12px;
+  background-color: #ffffff;
+}
+
+.imagem img {
+  width: 342px;
+  height: 222px;
+  border-radius: 12px 12px 0 0;
+}
+
+.card {
+  width: 342px;
+  height: 282px;
+  padding: 24px;
+}
+
+.card-inform h6 {
+  margin-top: -14px;
+  font-family: "Source Code Pro", monospace;
+  font-size: 18px;
+  width: 128px;
+  height: 23px;
+  line-height: 22.63px;
+  font-weight: 500;
+  color: #000000;
+}
+
+.card-inform h5 {
+  margin-top: -40px;
+  font-family: "Source Code Pro", monospace;
+  font-size: 14px;
+  line-height: 17.6px;
+  font-weight: 400;
+  width: 108px;
+  height: 18px;
+  color: #181818;
+}
+
+.card-text p {
+  font-weight: 400px;
+  width: 294px;
+  height: 36px;
+  font-family: "Source Code Pro", monospace;
+  font-size: 14px;
+  line-height: 17, 6px;
+  color: #666666;
+}
+
+.linha {
+  width: 291px;
+  height: 1px;
+  background-color: #c4c4c4;
+}
+
+.title-botoes {
+  width: 264px;
+  height: 57px;
+}
+
+.title p {
+  width: 108px;
+  height: 18px;
+  font-size: 14px;
+  font-family: "Source Code Pro", monospace;
+  color: #181818;
+}
+
+.tag {
+  padding: 8px, 12px, 8px, 12px;
+  border-radius: 100px;
+  height: 31px;
+  width: 60px;
+  gap: 10px;
+  border: 1px solid #3c3c43;
+  font-family: "Source Code Pro", monospace;
+}
+
+.list-button {
+  width: 264px;
+  height: 31px;
+  gap: 8px;
+}
+
+.clik button {
+  margin-top: 24px;
+  gap: 10px;
+  margin-bottom: 24px;
+  padding: 8px, 16px, 8px, 16px;
+  border-radius: 12px;
+  width: 76px;
+  height: 31px;
+  background-color: #3c3c43;
+  color: white;
+  border: 1px solid #3c3c43;
+  font-family: "Source Code Pro", monospace;
+}
